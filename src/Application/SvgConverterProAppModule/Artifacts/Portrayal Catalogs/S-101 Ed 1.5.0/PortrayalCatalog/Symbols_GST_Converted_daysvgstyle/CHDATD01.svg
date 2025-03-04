@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="17.54mm" height="17.25mm" viewBox="-15.8 -1.74 17.54 17.25">
+  <title>CHDATD01</title>
+  <desc>This object is a date dependent object</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHB" iho:creationDate="2014-06-09" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="0.1"/>
+    </iho:S100SVG>
+  </metadata>
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-15.48" y="-1.42" height="16.61" width="16.9"/>
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-15.48" y="-1.42" height="16.61" width="16.9"/>
+  <path d=" M -11.08,13.73 L -11.45,13.73 L -11.45,10.75 L -12.14,10.75" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <circle style="fill:none;stroke:#C045D1;" stroke-width="0.64"  cx="-12.7" cy="12.83" r="1.07"/>
+  <path d=" M -10.16,9.87 L -0.78,0.75" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <circle style="fill:none;stroke:#C045D1;" stroke-width="0.64"  cx="0" cy="0" r="1.1"/>
+  <path d=" M -10.16,9.87 L -15.16,9.87 L -15.16,14.87 L -10.16,14.87 L -10.16,9.87" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0" cy="0" r="1"/>
+</svg>

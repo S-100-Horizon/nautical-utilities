@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="11.98mm" height="11.98mm" viewBox="-5.98 -5.98 11.98 11.98">
+  <title>WNDFRM52</title>
+  <desc>Wind farm fixed, centred symbol</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHO" iho:creationDate="2014-06-09" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-5.98" y="-5.98" height="11.98" width="11.98" />
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-5.98" y="-5.98" height="11.98" width="11.98" />
+  <path d=" M 0.03,-1.78 L 2.21,-1.78" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#4C5B63;" stroke-width="0.64"  />
+  <path d=" M 0.03,-1.78 L -1.35,-3.41" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#4C5B63;" stroke-width="0.64"  />
+  <path d=" M 0.03,-1.78 L -1.35,-0.16" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#4C5B63;" stroke-width="0.64"  />
+  <circle cx="0.01" cy="0.02" r="4.99" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#4C5B63;" stroke-width="0.64"  />
+  <path d=" M -1.0,2.68 L 1.0,2.68" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#4C5B63;" stroke-width="0.64"  />
+  <path d=" M 0.02,-1.8 L 0.02,2.67" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#4C5B63;" stroke-width="0.64"  />
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0" cy="0" r="0.4"/>
+</svg>

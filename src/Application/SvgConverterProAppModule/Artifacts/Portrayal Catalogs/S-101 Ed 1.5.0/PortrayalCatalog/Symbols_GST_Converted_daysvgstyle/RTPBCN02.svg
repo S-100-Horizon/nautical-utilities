@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="7.07mm" height="6.72mm" viewBox="-3.53 -3.36 7.07 6.72">
+  <title>RTPBCN02</title>
+  <desc>radar transponder beacon</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHB" iho:creationDate="2014-06-09" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="0.1"/>
+    </iho:S100SVG>
+  </metadata>
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-3.21" y="-3.04" height="6.08" width="6.43"/>
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-3.21" y="-3.04" height="6.08" width="6.43"/>
+  <path d=" M 2.99,-1.01 L 3.22,0.02 L 3.01,1.1" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <path d=" M -3,-0.99 L -3.21,0.02 L -3,1.07" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <path d=" M -0.63,3.04 L -1.64,2.54 L -2.24,1.84" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <path d=" M 0.82,2.98 L 1.73,2.52 L 2.39,1.82" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <path d=" M -0.63,-3.04 L -1.64,-2.52 L -2.28,-1.88" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <path d=" M 0.84,-3 L 1.79,-2.48 L 2.39,-1.84" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.64" />
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0" cy="0" r="1"/>
+</svg>

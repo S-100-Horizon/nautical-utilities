@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="2.7mm" height="2.7mm" viewBox="-1.35 -1.35 2.7 2.7">
+  <title>LNDARE01</title>
+  <desc>land as a point at small scale</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHB" iho:creationDate="2014-06-09" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="0.1"/>
+    </iho:S100SVG>
+  </metadata>
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-1.03" y="-1.03" height="2.06" width="2.06"/>
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-1.03" y="-1.03" height="2.06" width="2.06"/>
+  <circle style="fill:#40402E;" cx="0" cy="0" r="0.93"/>
+  <circle style="fill:none;stroke:#6B7F89;" stroke-width="0.64"  cx="0" cy="0" r="1.03"/>
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0" cy="0" r="1"/>
+</svg>

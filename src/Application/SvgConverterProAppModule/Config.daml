@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcGIS defaultAssembly="SvgConverterProAppModule.dll" defaultNamespace="Geodatastyrelsen.ArcGIS.Modules" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{bceb0fa8-bde3-45a9-907c-8756abcebd17}" version="1.2"  desktopVersion="3.3.52636">
+    <Name>SvgConverter</Name>
+    <Description>SvgConverter</Description>
+    <Image>Images\Logo.png</Image>
+    <Author>GST</Author>
+    <Company>Geodatastyrelsen</Company>
+    <Date>10/8/2024 3:38:27 PM</Date>
+    <Subject>S-101</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="SvgConverterProAppModule_Module" className="SvgConverterProAppModule" autoLoad="false" caption="SvgConverterProAppModule">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="SvgConverter_Tab1" caption="New Tab">
+          <group refID="SvgConverter_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="SvgConverter_Group1" caption="GST Style Tools" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="ButtonConvertSvgToStylx" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="ButtonConvertSvgToStylx" caption="Convert SVG to stylx markers" className="ButtonConvertSvgToStylx" loadOnClick="true" smallImage="SaveAsStyleItems16" largeImage="SaveAsStyleItems32">
+          <tooltip heading="Convert SVG files to symbol stylx">
+			  Select folder with SVG files. All svg files in the given folder will be added to a new stylx file.<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

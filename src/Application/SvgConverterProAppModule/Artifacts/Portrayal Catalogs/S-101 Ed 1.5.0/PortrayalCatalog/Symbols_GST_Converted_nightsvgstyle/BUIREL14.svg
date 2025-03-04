@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="6.36mm" height="3.48mm" viewBox="-3.2 -1.79 6.36 3.48">
+  <title>BUIREL14</title>
+  <desc>conspicuous religious building, non-Christian</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHB" iho:creationDate="2014-06-09" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="0.1"/>
+    </iho:S100SVG>
+  </metadata>
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-2.88" y="-1.47" height="2.84" width="5.72"/>
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-2.88" y="-1.47" height="2.84" width="5.72"/>
+  <path d=" M -3.48,-1.87 L 2.84,1.37" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#252D31;" stroke-width="0.64" />
+  <path d=" M -3.48,1.37 L 2.84,-1.87" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#252D31;" stroke-width="0.64" />
+  <path d=" M -2.16,-1.13 L 2.09,-1.13 L 2.09,1.03 L -2.16,1.03 L -2.16,-1.13" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#252D31;" stroke-width="0.64" />
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0" cy="0" r="1"/>
+</svg>

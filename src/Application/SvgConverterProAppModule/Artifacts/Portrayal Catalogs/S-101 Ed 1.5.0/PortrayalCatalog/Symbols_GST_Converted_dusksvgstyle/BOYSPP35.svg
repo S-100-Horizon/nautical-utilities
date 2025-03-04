@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="3.58mm" height="5.32mm" viewBox="-1.85 -2.55 3.58 5.32">
+  <title>BOYSPP35</title>
+  <desc>special purpose ice buoy or spar or pillar shaped buoy, simplified</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHO" iho:creationDate="2024-02-08" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="1.0"/>
+    </iho:S100SVG>
+  </metadata>
+  <circle cx="-1.64" cy="2.66" r="0.05" style="fill:#8B8B1F;" stroke-width="0.064" fill-opacity="1.0"  />
+  <path d=" M -1.69,2.61 L 0.12,-2.39 L 1.57,-2.39 L -0.22,2.61 L -1.67,2.61 L -1.69,2.61 Z" style="fill:#8B8B1F;"/>
+  <path d=" M -1.69,2.61 L 0.12,-2.39 L 1.57,-2.39 L -0.22,2.61 L -1.67,2.61" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#000000;" stroke-width="0.32"  />
+  <circle cx="-0.01" cy="0.01" r="0.15" style="fill:#000000;" stroke-width="0.064" fill-opacity="1.0"  />
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-1.85" y="-2.55" height="5.32" width="3.58" />
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-1.85" y="-2.55" height="5.32" width="3.58" />
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0.00" cy="0.00" r="0.4" />
+</svg>

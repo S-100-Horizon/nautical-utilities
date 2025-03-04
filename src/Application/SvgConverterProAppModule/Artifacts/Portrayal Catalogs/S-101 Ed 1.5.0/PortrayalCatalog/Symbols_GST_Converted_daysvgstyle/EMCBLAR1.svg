@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="2.32mm" height="5.32mm" viewBox="-1.33 -2.18 2.32 5.32">
+  <title>EMCBLAR1</title>
+  <desc>Embedded symbol</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHB" iho:creationDate="2014-06-09" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="0.1"/>
+    </iho:S100SVG>
+  </metadata>
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-1.17" y="-2.02" height="5" width="2"/>
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-1.17" y="-2.02" height="5" width="2"/>
+  <path d=" M 0.33,-2.02 L -1.17,-0.02 L 0.83,0.98 L -0.67,2.98" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C045D1;" stroke-width="0.32" />
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0" cy="0" r="1"/>
+</svg>

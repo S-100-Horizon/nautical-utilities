@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="7.00mm" height="4.75mm" viewBox="-1.0 -1.57 7.00 4.75">
+  <title>SAFCON54</title>
+  <desc>pattern of symbol</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata/5.2">
+      <iho:Description iho:publisher="IHO" iho:creationDate="2024-02-21" iho:source="S52Preslib4.0" iho:format="S100SVG" iho:version="1.0" />
+    </iho:S100SVG>
+  </metadata>
+  <circle style="stroke:red;stroke-width:0.64;display:none;" fill="none" cx="0.00" cy="0.00" r="0.1" />
+  <rect style="stroke:black;stroke-width:0.32;display:none;" fill="none" x="-1.0" y="-1.57" height="4.75" width="7.00" />
+  <rect style="stroke:blue;stroke-width:0.32;display:none;" fill="none" x="-1.0" y="-1.57" height="4.75" width="7.00" />
+  <path d=" M 4.62,2.13 L 4.62,-0.57 L 3.43,0.94 L 4.92,0.94" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#C9EDFF;" stroke-width="0.96"  />
+  <path d=" M 4.61,2.07 L 4.62,-0.52 L 3.5,0.93 L 4.86,0.93" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#000000;" stroke-width="0.32"  />
+</svg>
