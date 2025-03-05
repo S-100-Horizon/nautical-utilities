@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArcGIS defaultAssembly="NauticalUtilitiesProAppModule.dll"
+        defaultNamespace="NauticalUtilitiesProAppModule"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <AddInInfo id="{ed9c2da5-a315-4e1f-a570-f16ab0c521b7}" version="3.4.0" desktopVersion="3.4.54247">
+    <Name>NauticalUtilitiesProAppModule</Name>   
+    <Description>NauticalUtilitiesProAppModule description</Description>
+    <Image>Images\Logo.png</Image>
+    <Author>S-100 Horizon</Author>
+    <Company>S-100 Horizon</Company>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+
+  <modules>
+    <updateModule refID="esri_mapping">
+      <menus>
+        <updateMenu refID="esri_mapping_layerContextMenu">
+          <insertButton refID="NauticalUtilitiesProAppModule_DynamicMenuDefinitionQuery" insert="before" placeWith="esri_editing_table_openTablePaneButton" separator="false" />
+        </updateMenu>
+        <updateMenu refID="esri_mapping_groupLayerContextMenu">
+          <insertButton refID="NauticalUtilitiesProAppModule_DynamicMenuDefinitionQuery" insert="before" placeWith="esri_mapping_addDataToGroupLayerButton" separator="false" />
+        </updateMenu>
+      </menus>
+    </updateModule>
+    <insertModule id="NauticalUtilitiesProAppModule_Module" className="Module" autoLoad="false" caption="NauticalUtilities">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+      </tabs>
+              
+      <groups>
+      </groups>
+      
+      <controls>
+        <dynamicMenu caption="Filter by scale band" className="NauticalUtilitiesProAppModule.DynamicMenus.DynamicMenuDefinitionQuery" id="NauticalUtilitiesProAppModule_DynamicMenuDefinitionQuery" largeImage="pack://application:,,,/ProTestApp;component/Images/MenuImage32.png" smallImage="pack://application:,,,/ProTestApp;component/Images/MenuImage16.png">
+          <!--<tooltip heading="Heading" image="pack://application:,,,/Acme;component/Images/MenuImage16.png">Some text</tooltip>-->
+        </dynamicMenu>
+
+        <button id="NauticalUtilitiesProAppModule_DynamicMenus_ButtonClear" caption="Clear" className="NauticalUtilitiesProAppModule.DynamicMenus.ButtonClear" loadOnClick="false" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/FilterRemove16.png" largeImage="GenericButtonBlue32" keytip="Z"></button>
+
+        <button id="NauticalUtilitiesProAppModule_DynamicMenus_ButtonOverview" caption="Overview" className="NauticalUtilitiesProAppModule.DynamicMenus.ButtonOverview" loadOnClick="false" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/AddFilter16.png" keytip="O"></button>
+        <button id="NauticalUtilitiesProAppModule_DynamicMenus_ButtonGeneral" caption="General" className="NauticalUtilitiesProAppModule.DynamicMenus.ButtonGeneral" loadOnClick="false" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/AddFilter16.png" keytip="G"></button>
+        <button id="NauticalUtilitiesProAppModule_DynamicMenus_ButtonCoastal" caption="Coastal" className="NauticalUtilitiesProAppModule.DynamicMenus.ButtonCoastal" loadOnClick="false" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/AddFilter16.png" keytip="C"></button>
+        <button id="NauticalUtilitiesProAppModule_DynamicMenus_ButtonApproach" caption="Approach" className="NauticalUtilitiesProAppModule.DynamicMenus.ButtonApproach" loadOnClick="false" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/AddFilter16.png" keytip="A"></button>
+        <button id="NauticalUtilitiesProAppModule_DynamicMenus_ButtonHarbour" caption="Harbour" className="NauticalUtilitiesProAppModule.DynamicMenus.ButtonHarbour" loadOnClick="false" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/AddFilter16.png" keytip="H"></button>
+        <button id="NauticalUtilitiesProAppModule_DynamicMenus_ButtonBerthing" caption="Berthing" className="NauticalUtilitiesProAppModule.DynamicMenus.ButtonBerthing" loadOnClick="false" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/AddFilter16.png" keytip="B"></button>
+
+      </controls> 
+      
+    </insertModule>
+  </modules>
+</ArcGIS>
